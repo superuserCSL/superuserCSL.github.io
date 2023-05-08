@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://superuserCSL.github.io</id>
+    <title>superuserCSL&apos;s Blog</title>
+    <updated>2023-05-08T10:22:21.008Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://superuserCSL.github.io"/>
+    <link rel="self" href="https://superuserCSL.github.io/atom.xml"/>
+    <subtitle>一个萌新ChOer的博客</subtitle>
+    <logo>https://superuserCSL.github.io/images/avatar.png</logo>
+    <icon>https://superuserCSL.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, superuserCSL&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[关于博主]]></title>
+        <id>https://superuserCSL.github.io/post/about/</id>
+        <link href="https://superuserCSL.github.io/post/about/">
+        </link>
+        <updated>2023-05-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>博主来自SH，CHN，目前初三下。</p>
+<p>曾经是OIer，现在半退役。</p>
+<p>现役萌新ChOer，初三刚入坑。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022年度总结&2023主要任务]]></title>
+        <id>https://superuserCSL.github.io/post/2022-nian-du-zong-jie-and2023-zhu-yao-ren-wu/</id>
+        <link href="https://superuserCSL.github.io/post/2022-nian-du-zong-jie-and2023-zhu-yao-ren-wu/">
+        </link>
+        <updated>2022-12-31T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>没有完成的，来年继续。</p>
+<p>相信应该不远了。</p>
+<p>希望在新的一年里，明确自己的方向，做事有目标、有意义、有效果。</p>
+<p>2023主要任务：</p>
+<p>1.在延期的一模取得好成绩。（已达成）</p>
+<p>2.拿到理想高中的offer。（已达成）</p>
+<p>3.中考取得好成绩。</p>
+<p>4.OI 目标：NOIP省一。（已修改：尽力而为即可）</p>
+<p>5.ChO 目标：省一。（要加油力）</p>
+<p>2023必然是不轻松的一年，加油吧，没有人有摆烂的资格，努力才是每个人该做的事情。</p>
+]]></content>
+    </entry>
+</feed>

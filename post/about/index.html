@@ -1,0 +1,170 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>关于博主 | superuserCSL&#39;s Blog</title>
+<link rel="shortcut icon" href="https://superuserCSL.github.io/favicon.ico?v=1683541304689">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://superuserCSL.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="关于博主 | superuserCSL&#39;s Blog - Atom Feed" href="https://superuserCSL.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="博主来自SH，CHN，目前初三下。
+曾经是OIer，现在半退役。
+现役萌新ChOer，初三刚入坑。
+" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://superuserCSL.github.io">
+  <img class="avatar" src="https://superuserCSL.github.io/images/avatar.png?v=1683541304689" alt="">
+  </a>
+  <h1 class="site-title">
+    superuserCSL&#39;s Blog
+  </h1>
+  <p class="site-description">
+    一个萌新ChOer的博客
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="https://superuserCSL.github.io" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="https://superuserCSL.github.io/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="https://superuserCSL.github.io/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="https://superuserCSL.github.io/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              关于博主
+            </h2>
+            <div class="post-info">
+              <span>
+                2023-05-01
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>博主来自SH，CHN，目前初三下。</p>
+<p>曾经是OIer，现在半退役。</p>
+<p>现役萌新ChOer，初三刚入坑。</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://superuserCSL.github.io/post/2022-nian-du-zong-jie-and2023-zhu-yao-ren-wu/">
+              <h3 class="post-title">
+                2022年度总结&amp;2023主要任务
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  superuserCSL's Blog
+  <a class="rss" href="https://superuserCSL.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
